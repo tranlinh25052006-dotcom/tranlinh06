@@ -29,7 +29,7 @@
     <header id="home">
         <div class="container header-content">
             <div class="header-text">
-                 <img src="avatar.jpg" alt="Ảnh đại diện của Trần Khánh Linh" class="avatar">
+                 <img src="avatar" alt="Ảnh đại diện của Trần Khánh Linh" class="avatar">
                 <h1>Trần Khánh Linh</h1>
                 <p class="tagline">Sinh viên Kinh tế phát triển | ĐHQGHN</p>
                 <!-- Thay thế href bằng link GitHub/Nhúng của bạn -->
