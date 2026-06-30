@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfolio của Trần Khánh Linh</title>
+    <!-- Liên kết file CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- (Tùy chọn) Liên kết icon từ Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+    <!-- BẮT ĐẦU: Phần Thanh Điều Hướng (Navbar) -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo"><a href="#"Trần Khánh Linh</a></div>
+            <ul class="nav-links">
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#education">Học vấn</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- KẾT THÚC: Navbar -->
+
+    <!-- BẮT ĐẦU: Phần Hero (Header) -->
+    <header id="home">
+        <div class="container header-content">
+            <div class="header-text">
+                <h1>Trần Khánh Linh</h1>
+                <p class="tagline">Sinh viên Kinh tế phát triển | ĐHQGHN</p>
+                <!-- Thay thế href bằng link GitHub/Nhúng của bạn -->
+                <a href="#" class="btn">Tải CV của tôi</a>
+            </div>
+            <!-- Ở đây có thể thêm ảnh đại diện nếu muốn -->
+        </div>
+    </header>
+    <!-- KẾT THÚC: Header -->
+
+    <!-- BẮT ĐẦU: Phần Giới thiệu -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Giới thiệu bản thân</h2>
+            <div class="about-content">
+                <p>
+                    <!-- THAY ĐỔI: Viết lại đoạn giới thiệu của bạn -->
+                    Tôi là sinh viên năm 2 ngành Kinh tế Phát triển. Tôi quan tâm đến các vấn đề về phát triển kinh tế, kinh tế xã hội và nghiên cứu dữ liệu phục vụ phân tích. Với tinh thần ham học hỏi, khả năng làm việc nhóm hiệu quả và trách nhiệm trong công việc, tôi luôn mong muốn không ngừng trau dồi kiến thức, kỹ năng để phát triển bản thân và định hướng sự nghiệp trong lĩnh vực kinh tế và phát triển.
+
+                </p>
+                <!-- Các hashtag (thẻ) -->
+                <div class="tags">
+                    <span>#Sángtạo</span>
+                    <span>#ChủĐộng</span>
+                    <span>#HọcHỏi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- KẾT THÚC: Giới thiệu -->
+
+    <!-- BẮT ĐẦU: Phần Học vấn -->
+    <section id="education" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Học vấn</h2>
+            <div class="edu-grid">
+                <!-- Đại học Kinh tế -->
+                <div class="edu-card">
+                    <h3>Trường Đại học Kinh tế – ĐHQGHN</h3>
+                    <p class="meta"><i class="fas fa-calendar-alt"></i> 2024 – 2028 dự kiến</p>
+                    <p>Cử nhân Kinh tế phát triển hệ chính quy</p>
+                    <p><strong>GPA:</strong> 3.0/4.0</p>
+                </div>
+                <!-- Đại học Kinh tế Quốc dân -->
+                <div class="edu-card">
+                    <h3>Trường Đại học Kinh tế Quốc dân</h3>
+                    <p class="meta"><i class="fas fa-calendar-alt"></i> 2025 – 2028 dự kiến</p>
+                    <p>Đang theo học</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- KẾT THÚC: Học vấn -->
+    <!-- BẮT ĐẦU: Phần Dự án -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Kinh nghiệm &amp; Dự án</h2>
+            <div class="project-grid">
+                <!-- Dự án 1 -->
+                <div class="project-card">
+                    <h3>Trợ lý Công ty gia đình</h3>
+                    <p class="meta"><i class="fas fa-building"></i>Công ty TNHH Đầu tư và Thương mại Đức Linh | 2026</p>
+                    <ul>
+                        <li>Phụ trách đảm nhiệm phần kiểm kê hàng hóa, nhập hàng hóa mới, kế toán cho công ty.</li>
+                    </ul>
+                </div>
+                <!-- Dự án 2 -->
+                <div class="project-card">
+                    <h3>Trợ giảng Trung tâm Tiếng Anh</h3>
+                    <p class="meta"><i class="fas fa-building"></i>Trung tâm Tiếng Anh Thomas Edison</p>                  
+                    <ul>
+                        <li>Hỗ trợ giáo viên trong việc chuẩn bị tài liệu giảng dạy, quản lý lớp học và hướng dẫn học viên trong quá trình học tập.</li>
+                        <li>Tham gia chấm bài, đánh giá kết quả học tập.</li>                    
+                    </ul>
+                </div>
+                <!-- Dự án 3 -->
+                <div class="project-card">
+                    <h3>Tham gia Hội sinh viên Khoa Kinh tế Phát triển</h3>
+                    <p>Ủy viên Ban Chấp hành Hội sinh viên Khoa Kinh tế Phát triển.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- KẾT THÚC: Dự án -->
+    <!-- BẮT ĐẦU: Phần Kỹ năng -->
+    <section id="skills" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Skills &amp; Kỹ năng</h2>
+            <div class="skills-grid">
+                <!-- Nhóm kỹ năng cứng -->
+                <div class="skill-category">
+                    <h3>Kỹ năng chuyên môn</h3>
+                    <div class="skill-items">
+                        <span>Phân tích dữ liệu cơ bản</span>
+                        <span>Microsoft Excel</span>
+                        <span>SPSS cơ bản</span>
+                        <span>n8n Automation cơ bản</span>
+                        <span>Canva</span>
+                        <span>Data Analysis</span>
+                    </div>
+                </div>
+                <!-- Nhóm kỹ năng mềm -->
+                <div class="skill-category">
+                    <h3>Kỹ năng mềm &amp; Ngôn ngữ</h3>
+                    <div class="skill-items">
+                        <span>Giao tiếp và thuyết trình</span>
+                        <span>Làm việc nhóm</span>
+                        <span><i class="fas fa-language"></i> Tiếng Anh (IELTS 6.0)</span>
+                        <span><i class="fas fa-language"></i> Tiếng Việt (Bản ngữ)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- KẾT THÚC: Kỹ năng -->
+    <!-- BẮT ĐẦU: Phần Liên hệ -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact &amp; Liên hệ</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> 0824575509</p>
+                <!-- THAY ĐỔI: Thêm email và các link mạng xã hội của bạn -->
+                <p><i class="fas fa-envelope"></i> tranlinh25052006@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Hà Đông, Hà Nội</p>
+                <div class="social-links">
+                    <!-- Thêm link LinkedIn, GitHub, Facebook,... của bạn -->
+                    <a href="https://web.facebook.com/tran.linh.354890"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/bongggg_._"><i class="fab fa-instargram"></i></a>                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- KẾT THÚC: Liên hệ -->
+    <!-- Chân trang -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Trần Khánh Linh. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
